@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <OutputPath>C:\robocode\robots\MaxsOutput\</OutputPath>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>C:\robocode\robots\MaxsOutput\</OutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="robocode">
+      <HintPath>..\..\..\..\..\..\..\..\..\..\..\..\robocode\libs\robocode.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
